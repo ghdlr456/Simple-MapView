@@ -68,7 +68,11 @@ class ViewController: UIViewController {
                     anno.coordinate = loc!
                     anno.title = "wait!"
                     anno.subtitle = addr
-                    self.self.myMapView.addAnnotation(anno)
+//                    self.self.myMapView.addAnnotation(anno)
+                    self.annotations.append(anno)
+                    self.myMapView.addAnnotations(self.annotations)
+                    self.myMapView.showAnnotations(self.annotations, animated: true)
+                    
                     
                 } else {
                     print("placemarks nil 발생")
