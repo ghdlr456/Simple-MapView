@@ -48,8 +48,7 @@ class ViewController: UIViewController {
                                  "부산광역시 부산진구 양정1동 393-18",
                                  "부산광역시 부산진구 양정1동 356-22",
                                  "부산광역시 부산진구 양정1동 산19-8",
-                                 "부산광역시 부산진구 양정1동 353-38"
-                                ]
+                                 "부산광역시 부산진구 양정동 353-38"]
         
         for addr in foodStoreAddress {
             let geoCoder = CLGeocoder()
